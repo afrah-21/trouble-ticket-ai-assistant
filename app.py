@@ -667,5 +667,10 @@ if __name__ == "__main__":
     print("------------------------------------------")
     print(csv_agent.overview())
     
-port = int(os.environ.get("PORT", 5000))
-app.run(debug=False, host="0.0.0.0", port=port)
+if __name__ == "__main__":
+    print("\nCSV-Focused ChatGPT-Style Assistant Started")
+    print("------------------------------------------")
+    print(csv_agent.overview())
+
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=False, host="0.0.0.0", port=port)
