@@ -1,0 +1,6 @@
+.env
+.venv/
+myenv/
+__pycache__/
+*.pyc
+trouble_ticket_data.csv

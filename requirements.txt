@@ -1,0 +1,13 @@
+flask
+flask-cors
+pandas
+numpy
+python-dotenv
+joblib
+scikit-learn
+xgboost
+gunicorn
+langchain
+langchain-groq
+langchain-experimental
+tabulate
