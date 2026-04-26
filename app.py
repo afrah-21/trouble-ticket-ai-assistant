@@ -661,11 +661,6 @@ def reset_chat():
     csv_agent.chat_history = []
     return jsonify({"success": True, "message": "Chat history cleared."})
 
-
-if __name__ == "__main__":
-    print("\nCSV-Focused ChatGPT-Style Assistant Started")
-    print("------------------------------------------")
-    print(csv_agent.overview())
     
 if __name__ == "__main__":
     print("\nCSV-Focused ChatGPT-Style Assistant Started")
